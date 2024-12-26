@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.draggable {
+  -webkit-app-region: drag; /* Make the title bar draggable */
+}
+
+.undraggable {
+  -webkit-app-region: no-drag; /* Exclude buttons from draggable area */
+}
